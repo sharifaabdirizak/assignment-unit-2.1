@@ -32,14 +32,13 @@ let allowedPets = 1;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
 if (adventurous == true){
-   console.log("adventures are great");  
-} else {
-    console.log("How about we stay home?");
-}
+   console.log("Adventures are great!");  
+} 
+
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if (luckyNumber ==2 && adventurous ==true);
+if (luckyNumber === 2 && adventurous ===true);
 console.log("Roll the dice!");
 
 // 15 - Write a conditional that console logs "I can have more pets!" 
@@ -50,7 +49,7 @@ console.log("Roll the dice!");
 
 if (pets < allowedPets) {
     console.log("I can have more pets!");
-} else if (pets == allowedPets) {
+} else if (pets === allowedPets) {
     console.log("I have enough pets");
 } else if (pets > allowedPets) {
 
@@ -103,5 +102,5 @@ switch (luckyNumber) {
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
-
-adventurous === true ? console.log("Adventures are great!"):console.log("How about we stay home?");
+let result =
+adventurous == true ? console.log("Adventures are great!"):console.log("How about we stay home?");
