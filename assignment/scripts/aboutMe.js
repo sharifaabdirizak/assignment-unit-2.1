@@ -104,3 +104,5 @@ switch (luckyNumber) {
 
 let result =
 adventurous == true ? console.log("Adventures are great!"):console.log("How about we stay home?");
+
+
