@@ -25,7 +25,7 @@ let friendsPets= 2;
 // 11 - Add two pets to your `pets` variable
 pets+=2;
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-let allowedPets = 1;
+const allowedPets = 1;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
 if (adventurous == true){
@@ -33,7 +33,7 @@ if (adventurous == true){
 } 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if (luckyNumber === 2 && adventurous ===true);
+if (luckyNumber == 2 && adventurous ==true);
 console.log("Roll the dice!");
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
@@ -46,9 +46,8 @@ if (pets < allowedPets) {
 } else if (pets === allowedPets) {
     console.log("I have enough pets");
 } else if (pets > allowedPets) {
-}
     console.log("Oh no, I have too many pets!");
-
+}
 // STRETCH GOALS:
 
 // 16 - Make a variable called `mostPets` and a conditional that
@@ -85,9 +84,10 @@ switch (luckyNumber) {
         console.log("Third is the one with the polka dot dress");
         break;
     default: 
-}
     console.log("Luck is what happens when preparation meets opportunity");
+}
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 let result =
-adventurous == true ? console.log("Adventures are great!"):console.log("How about we stay home?");
+    (adventurous == true) ? "Adventures are great!" : "How about we stay home?";
+console.log(result);
